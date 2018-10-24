@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>calculadora</title>
+	 <meta name="viewport" content="width=device-width">
+	<link rel="stylesheet" type="text/css" href="Interfaz.css">
+	<script src="Calculadora.js"></script>
+	
+</head>
+<body>
+
+<div class="resultado">
+	<input type="text" name="pantalla" id="pantalla">
+	
+</div>
+
+
+<div class="teclas">
+	<button id="tec" onclick="borrar()">CE</button>
+	<button id="tec" onclick="secreto()">+/-</button>
+	<button id="tec" onclick="igual('%')">%</button> 
+	<button id="tec" onclick="concatenar('/')">/</button>
+</div>
+
+<div class="teclas">
+	<button id="te"onclick="concatenar('7')">7</button>
+	<button id="te"onclick="concatenar('8')">8</button>
+	<button id="te"onclick="concatenar('9')">9</button>
+	<button id="tec"onclick="concatenar('*')">x</button>
+	
+</div>
+
+
+<div class="teclas">
+	<button id="te"onclick="concatenar('4')">4</button>
+	<button id="te"onclick="concatenar('5')">5</button>
+	<button id="te"onclick="concatenar('6')">6</button>
+	<button id="tec"onclick="concatenar('+')">+</button>
+	
+</div>
+
+
+<div class="teclas">
+	<button id="te"onclick="concatenar('1')">1</button>
+	<button id="te"onclick="concatenar('2')">2</button>
+	<button id="te"onclick="concatenar('3')">3</button>
+	<button id="tec"onclick="concatenar('-')">-</button>
+	
+</div>
+
+
+<div class="teclas">
+	<button id="te"onclick="concatenar('.')">.</button>
+	<button id="te"onclick="concatenar('0')">0</button>
+	<button id="igual"onclick="igual()">=</button>
+	
+</div>
+
+
+
+</body>
+</html>
